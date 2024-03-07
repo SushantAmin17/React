@@ -5,33 +5,28 @@
 }
 
 .logo{
-    width: 130px;
+    width: 120px;
+}
+
+.nav-items{
+    padding: 1rem;
 }
 
 .nav-items ul{
     list-style-type: none;
-    padding: 1rem;
 }
 
 .nav-items ul li{
     display: inline-block;
-    padding: 0.8rem;
-    font-size: 1.2rem;
-}
-
-.search{
-    padding: 1rem;
-}
-
-.filter-btn{
-    margin: 1rem;
+    margin: 15px;
+    font-size: 1.3rem;
 }
 
 .res-card{
     width: 200px;
     padding: 0.5rem;
+    border: 1px solid #e8e8e8;
     margin: 5px;
-    border: 1px solid #e8e9e8;
 }
 
 .res-card:hover{
@@ -47,4 +42,7 @@
     flex-wrap: wrap;
 }
 
+.filter-btn{
+    margin: 10px;
+}
 

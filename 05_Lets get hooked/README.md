@@ -1,31 +1,23 @@
-# React
+#Concepts covered
 
-# Namaste Food
+=>Will develop a project (Our Project Structure)
 
-*Header
-  -Logo
-  -Nav Items
-*Body
-  -Search
-  -RestaurantContainer
-    -RestaurantCard
-       -Img
-       -Name of Res, Star Rating , cuisine 
-*Footer
-  -Copyright
-  -Links
-  -Address
-  -Contact
+  Header
+  ->Logo
+  ->Nav Items
+  Body
+  ->Search
+  ->RestaurantContainer
+  ->RestaurantCard
+  Footer
+  ->Copyright
+  ->Links
+  ->Address
+  ->Contact
 
+=> Props  -> Normal Argument passing to a function
+<!-- For eg:-  <Header resName="Sushant Foods"/>  -> Here resName="Sushant Foods" is props -->
 
-  # Export Import
+=>map function - to get all the dynamic data for our restaurant card
 
-  -Default Export/Import
-  
-  export default Component;
-  import Component from "../../";
-
-  -named Export/Import
-
-  export const Component;
-  import {Component} from "path";
+=> have to include unique key value 

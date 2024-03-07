@@ -1,22 +1,14 @@
 {
-  "name": "react",
+  "name": "02_igniting-our-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "=>installing packages into our project\r     -> npm init (package.json)\r     -> npm install -D parcel (node_modules , package-lock.json) - installing bundler",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SushantAmin17/React.git"
-  },
-  "author": "Sushant Amin",
+  "author": "Sushant Amina",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SushantAmin17/React/issues"
-  },
-  "homepage": "https://github.com/SushantAmin17/React#readme",
   "devDependencies": {
     "parcel": "^2.12.0",
     "process": "^0.11.10"
@@ -25,7 +17,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browser-list": [
+  "browserslist" : [
     "last 3 versions"
   ]
 }
