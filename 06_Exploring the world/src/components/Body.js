@@ -1,18 +1,25 @@
 import RestaurantCard from "./RestaurantCard";
-import { useState } from "react";
+import { useState ,useEffect } from "react";
 import resList from "../utils/mockData";
 
 const Body = () => {
 
   const [listofRestaurants, setlistofRestaurant] = useState(resList);  //special variable
 
-//  Another way of using useState() variable
+  
+  //  Another way of using useState() variable
+  
+  // const arr = useState(resList);
+  //   const [listofRestaurants, setlistofRestaurant] = arr  ;  
+  
+  // const listofRestaurants = arr[0];
+  // const setlistofRestaurant = arr[1];
 
-// const arr = useState(resList);
-//   const [listofRestaurants, setlistofRestaurant] = arr  ;  
 
-// const listofRestaurants = arr[0];
-// const setlistofRestaurant = arr[1];
+useEffect(()=>{
+  console.log("This is use Effect");
+},[]);
+
 
   //  // Normal JS variable
   //   let listofRestaurantsJs = [
