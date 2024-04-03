@@ -1,0 +1,102 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 5px inset black;
+    /* border-style: ; */
+}
+
+.logo{
+    width: 120px;
+}
+
+.nav-items{
+    padding: 1rem;
+}
+
+.nav-items ul{
+    list-style-type: none;
+}
+
+.nav-items ul li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 1.3rem;
+}
+
+.res-card{
+    width: 200px;
+    padding: 0.5rem;
+    border: 1px solid #e8e8e8;
+    margin: 5px;
+}
+
+.res-card:hover{
+    border: 1px solid black;
+}
+
+.res-logo{
+    width: 100%;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-btn{
+    margin: 10px;
+}
+
+.search{
+    margin: 10px;
+}
+
+.filter{
+    display: flex ;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    border: 1px solid #e8e8e8;
+    background-color: #e8e8e8;
+    width: 200px;
+    margin: 5px;
+    padding: 0.5rem;
+    height: 400px;
+}
+
+.shimmer-btn{
+    margin: 10px;
+    color: transparent;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+}
+
+.shimmer-logo{
+    width: 100%;
+    background-color: gainsboro;
+    height: 180px;
+}
+
+.logIn{
+    padding: 10px 30px;
+}
+
+.shimmer-search{
+    margin: 10px;
+}
+
+.shimmer-input{
+    background-color: #e8e8e8;
+    border: 1px solid #e8e8e8;
+}
+
+.shimmer-search-btn{
+    color: transparent;
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+}

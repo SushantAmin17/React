@@ -3,41 +3,10 @@ import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 
 const Body = () => {
-  // // Normal JS variable
-  //  let listofRestaurantsJs = [
-  //    {
-  //      info: {
-  //        id: "5932",
-  //        name: "Burger King",
-  //        cloudinaryImageId: "e33e1d3ba7d6b2bb0d45e1001b731fcf",
-  //        cuisines: ["Burgers", "American"],
-  //        costForTwo: 350,
-  //        avgRating: 4.3,
-  //      },
-  //    },
-  //    {
-  //      info: {
-  //        id: "9865",
-  //        name: "Dominoz",
-  //        cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
-  //        cuisines: ["Pizzas"],
-  //        costForTwo: 50000,
-  //        avgRating: 3.8,
-  //      },
-  //    },
-  //  ];
 
   const [listofRestaurants, setlistofRestaurant] = useState([]); //special variable
 
   const [filteredRestaurant , setfilteredRestaurant] = useState([]);
- 
-  //  Another way of using useState() variable
-
-  // const arr = useState(resList);
-  //   const [listofRestaurants, setlistofRestaurant] = arr;
-
-  // const listofRestaurants = arr[0];
-  // const setlistofRestaurant = arr[1];
 
   const [searchName, setsearchName] = useState("");
 
@@ -88,9 +57,9 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             const filteredList = listofRestaurants.filter(
-              (res) => res.info.avgRating > 4
+              (res) => res.info.avgRating >= 4
             );
-            setlistofRestaurant(filteredList);
+            setfilteredRestaurant(filteredList);
             // console.log(filteredList);
           }}
         >
