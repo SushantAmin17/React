@@ -28,6 +28,7 @@
     padding: 0.5rem;
     border: 1px solid #e8e8e8;
     margin: 5px;
+    /* height: 500px; */
 }
 
 .res-card:hover{
@@ -99,4 +100,9 @@
     color: transparent;
     border: 1px solid gainsboro;
     background-color: gainsboro;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
 }

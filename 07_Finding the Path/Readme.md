@@ -8,6 +8,9 @@
 
 =>Creating Contact Page
 
+=>Creating Error page
+ ->useRouteError //hook
+
 =>Creating Children Routes
 
 
@@ -16,3 +19,5 @@
 -Server Side Routing
 
 =>Creating RestaurantMenu
+
+=>useParams  //hook
