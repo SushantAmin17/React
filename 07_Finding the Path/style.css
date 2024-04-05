@@ -28,7 +28,7 @@
     padding: 0.5rem;
     border: 1px solid #e8e8e8;
     margin: 5px;
-    /* height: 500px; */
+    height: 500px;
 }
 
 .res-card:hover{
@@ -67,7 +67,7 @@
     width: 200px;
     margin: 5px;
     padding: 0.5rem;
-    height: 400px;
+    height: 500px;
 }
 
 .shimmer-btn{
@@ -106,3 +106,83 @@ a{
     text-decoration: none;
     color: #000;
 }
+
+
+/* Restaurant Menu Start */
+
+.menu .menuCuisine{
+    border: 1px solid #000;
+    color: orangered;
+    text-align: center;
+    padding: 2rem; 
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 10px 10px 20px 1px grey;
+}
+
+.menuList{
+    margin-top: 4rem;
+    list-style-type: none;
+}
+
+.menuList li{
+    padding: 1rem 0rem;
+}
+
+.menuItemName{
+    font-size: 20px;
+    color: gainsboro;
+}
+/* Restaurant Menu End */
+
+
+/* Shimmer Menu Start  */
+
+.shimmermenu-header{
+    width: 250px;
+    height: 25px;
+    margin: 21px 0px;
+    background-color: #bebebe;
+}
+
+.shimmermenu-cuisine{
+    background-color: gainsboro;
+    padding: 3rem; 
+    border-radius: 10px;
+}
+
+.shimmermenu-list{
+    margin-top: 4rem;
+}
+
+.shimmermenu-list li{
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+
+.shimmermenu-menuList{
+    width: 80px;
+    height: 20px;
+    /* margin: 21px 0px; */
+    background-color: #d3d3d3;
+}
+
+.shimmermenu-menuName{
+    width: 200px;
+    height: 12px;
+    background-color: #e8e8e8;
+}
+
+.shimmermenu-price{
+    width: 80px;
+    height: 12px;
+    background-color: #e8e8e8;
+}
+
+.shimmermenu-description  {
+    width: 800px;
+    height: 12px;
+    background-color: #e8e8e8;
+}
+/* Shimmer Menu End  */
